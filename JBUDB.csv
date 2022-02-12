@@ -1,4 +1,4 @@
-id,firstname,lastname,email,status,Department
+id,firstname,lastname,email,role,department
 100,Marguerite,Cullin,Marguerite.Cullin@jbu.edu,Professor,Religion
 101,Sindee,Gherardo,Sindee.Gherardo@jbu.edu,Student,Kinesiology
 102,Katharina,Brotherson,Katharina.Brotherson@jbu.edu,Professor,Kinesiology

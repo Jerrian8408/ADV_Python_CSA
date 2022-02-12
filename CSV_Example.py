@@ -1,12 +1,13 @@
 import csv
 from pprint import pprint
 
-"""
-Opens the CSV File and stores all the data in an array
-Removes the header from the CSV File
-Converts String ID to Ints
-"""
+
 def import_data():
+    """
+    Opens the CSV File and stores all the data in an array
+    Removes the header from the CSV File
+    Converts String ID to Ints
+    """
     data = []
     with open('JBUDB.csv') as db_data:
         in_data = csv.reader(db_data, delimiter=',')
@@ -48,4 +49,3 @@ def find_by_department(department: str):
 if __name__ == '__main__':
     pprint(import_data())
 
-    
